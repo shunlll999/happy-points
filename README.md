@@ -20,3 +20,5 @@
 ```
 webpack --watch
 ```
+
+And try open the index.html up to any browser you would like to use.
