@@ -21,4 +21,4 @@
 webpack --watch
 ```
 
-And try open the index.html up to any browser you would like to use.
+And try open the index.html inside scr folder up to any browser you would like to use.
