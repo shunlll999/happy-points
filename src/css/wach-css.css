@@ -1,0 +1,194 @@
+#company-logo {
+    display: block;
+    width: 300px;
+    height: 70px;
+    margin-left: 40px;
+    background-image: url("../images/Logo_happyfresh.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:relative;
+}
+
+#company-logoBlack {
+    display: block;
+    width: 300px;
+    height: 70px;
+    margin-left: 40px;
+    background-image: url("../images/Logo_happyfresh.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position:relative;
+}
+
+.well {
+   background-color: rgba(245, 245, 245, 0.6);
+   position:relative;
+}
+
+.my-promo {
+    position: relative;
+    overflow: hidden;
+}
+
+.my-promo h1 {
+    padding: 20px;
+    color: #000;
+    position: relative;
+    z-index: 2;
+}
+
+.my-promo p {
+
+    margin-left: 40px;
+    font-size: 120%;
+    color: #000;
+    position: relative;
+    z-index: 2;
+}
+
+
+.my-promo img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
+}
+
+.dark-fillter {
+     background-color: #000000;
+}
+
+.jumboImage {
+    margin-bottom: 0;
+    background-image: url("../images/Cover-photo_Shopper.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron h1{
+    color: #fff;
+    font-family: 'cloudbold', sans-serif;
+    text-shadow: 3px 3px #000;
+    position:relative;
+}
+
+.jumbotron h2{
+    color: #fff;
+     margin-left: 10%;
+     text-shadow: 2px 2px #000;
+     font-size: 330%;
+     position:relative;
+    font-family: 'cloud_lightlight', sans-serif;
+}
+
+.jumbotron h4{
+    font-family: 'cloud_lightlight', sans-serif;
+    font-size: 200%;
+    position:relative;
+    transform: translateY(-20%);
+    -webkit-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+}
+
+.jumbotron p{
+    color: #fff;
+    font-family: 'cloud_lightlight', sans-serif;
+}
+
+.light-color {
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+
+.fontCloud_mini {
+    font-family: 'cloud_lightlight', sans-serif;
+    font-size: 130%;
+    position:relative;
+}
+
+.fontCloud_lightlight {
+    font-family: 'cloud_lightlight', sans-serif;
+    font-size: 250%;
+    position:relative;
+    top:50%;
+    transform: translateY(35%);
+    -webkit-transform: translateY(35%);
+    -ms-transform: translateY(35%);
+}
+
+.fontCloud_lightlight-non-align {
+    font-family: 'cloud_lightlight', sans-serif;
+    font-size: 250%;
+}
+
+
+.fontCloudbold {
+    font-family: 'cloudbold', sans-serif;
+}
+
+.cloud_lightlight {
+    font-family: 'cloud_lightlight', sans-serif;
+}
+
+.fontCloudbold-non-align {
+    font-family: 'cloudbold', sans-serif;
+    font-size: 250%;
+}
+
+.bangna_newregular {
+    font-family: 'bangna_newregular', sans-serif;
+}
+
+input {
+    opacity: 0.7;
+}
+
+.btn-xlarge {
+    font-family: 'cloudbold', sans-serif;
+    padding: 18px 28px;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+@font-face {
+    font-family: 'wdb_bangnaregular';
+    src: url('../fonts/wdb_bangna-webfont.woff2') format('woff2'),
+         url('../fonts/wdb_bangna-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bangna_newregular';
+    src: url('../fonts/bangna-new-webfont.woff2') format('woff2'),
+         url('../fonts/bangna-new-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cloudbold';
+    src: url('../fonts/cloud-bold-webfont.woff2') format('woff2'),
+         url('../fonts/cloud-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'cloud_lightlight';
+    src: url('../fonts/cloud-light-webfont.woff2') format('woff2'),
+         url('../fonts/cloud-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
